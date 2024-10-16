@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    background-color: black;
+    color:white;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+#time_label{
+    font-size:40px;
+}
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    font-size:20px;
+    margin:10px auto;
+    
+}
+#start {
+    background-color: green;
+    color: white;
+}
+#lap {
+    background-color: blue;
+    color: white;
+}
